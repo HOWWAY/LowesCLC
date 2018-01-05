@@ -26,7 +26,7 @@
 }
 
 .like-click {
-  color: #ab382f;
+  color: white;
 }
 
 .likeheart {
@@ -55,4 +55,9 @@ a>img {
 
 a>img:hover {
   opacity: 0.8;
+}
+
+.like-papa {
+  background: linear-gradient(to right, #FF8008 , #FFC837);
+  color: rgba(255,255,255,0.75);
 }
