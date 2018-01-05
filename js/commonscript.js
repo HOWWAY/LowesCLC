@@ -4,3 +4,7 @@ $(function () {
                 $(this).toggleClass('like-click');
             })
 })
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
