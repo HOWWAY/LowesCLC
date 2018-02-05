@@ -61,3 +61,84 @@ a>img:hover {
   background: linear-gradient(to right, #E3656A , #F18991);
   color: rgba(255,255,255,0.75);
 }
+
+
+@media screen and (min-width: 1200px) {
+   #leftmenu {
+     position: fixed;
+     height: auto;
+     width: 253px;
+   }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+   #leftmenu {
+     position: fixed;
+     height: auto;
+     width: 208px;
+   }
+}
+
+@media (max-width: 991px){
+   #leftmenu {
+     position: static;
+   }
+}
+
+.profileholder {
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/21/14/53/adult-1845814_960_720.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.lwcallout {
+  border: 2px solid lightgrey;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.bigProfilePic {
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/21/14/53/adult-1845814_960_720.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  width: 60%;
+  height: 0;
+  padding-bottom: 60%;
+}
+
+.smallProfilePic {
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/21/14/53/adult-1845814_960_720.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  width: 40%;
+  height: 0;
+  padding-bottom: 40%;
+}
+
+.nopaddingli {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media screen and (min-width: 992px) {
+  .footerbot {
+    position: absolute;;
+    bottom: 0px;
+    width: 100%;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 991px){
+   .footerbot {
+     position: static;
+   }
+}
