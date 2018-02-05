@@ -86,7 +86,7 @@ a>img:hover {
 }
 
 .profileholder {
-  background-image: url("https://images.pexels.com/photos/300849/pexels-photo-300849.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-image: url("https://raw.githubusercontent.com/HOWWAY/LowesCLC/master/images/pexels-photo-300849.jpeg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -102,7 +102,7 @@ a>img:hover {
 }
 
 .bigProfilePic {
-  background-image: url("https://images.pexels.com/photos/300849/pexels-photo-300849.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-image: url("https://raw.githubusercontent.com/HOWWAY/LowesCLC/master/images/pexels-photo-300849.jpeg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
